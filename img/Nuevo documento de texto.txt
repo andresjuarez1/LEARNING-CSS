@@ -1,0 +1,24 @@
+> es para indicar que el estilo va SOLO hacia los hijos directos del ul 
+No se recomienda usar estos selectores ya que agregan mucha especificidad
+
+COMBINADOR DE HERMANO ADYACENTE (+ *)
+Ayuda para crear animaciones
+El hermano adyacente es el siguiente
+
+COMBINADOR DE HERMANOS GENERALES (~) 
+Combina 2 selectores donde el segundo selector debe ser un hermano siguiente al primer selector
+[value~="cursocss.com"]{
+}
+
+(^)ACENTO CIRCUNFLENJO
+Seleccionar elemento que contenga como prefijo un valor
+[value^="cursocss.com"]{
+}
+
+($)Es lo contrario, en vez de ser el sufijo ahora es el prefijo
+
+PSEUDOELEMENTOS
+PSEUDOCLASES
+inherit (es para heredar elementos de una etiqueta)
+
+METODOLOGÍA BEM

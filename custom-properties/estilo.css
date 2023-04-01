@@ -1,0 +1,47 @@
+:root{
+    /* --bordes-titulo: linear-gradient(steelblue, hotpink); */
+    /* --bordes:1px solid black; */
+    --color-primario: crimson;
+    --padding-botones:20px 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    color: royalblue;
+}
+
+.title{
+    /* border: var(--bordes); */
+    color: var(--color-primario);
+}
+
+.paragraph{
+    /* border: var(--bordes); */
+    color: var(--color-primario);
+}
+
+.cta{
+    /* background-image: var(--bordes); */
+    border: var(--borde);
+    background-color: var(--color-primario);
+    display: block;
+    padding: var(--padding-botones, 80px 0);
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.container{
+    --borde:5px solid black;
+} 
+/* SE PUEDEN DECLARAR CUSTOM PROPERTIES EN CUALQUIER LADO, 
+PERO SI LO DECLARAS EN UN CONTENEDOR, SOLAMENTE VA A APLICAR A LOS HIJOS DE ESTA CLASE
+
+Como ejemplo, el container que está arriba*/

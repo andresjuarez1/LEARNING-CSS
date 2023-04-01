@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link{
+    margin: 50px;
+    display: inline-block;
+    background-color: slateblue;
+    color: white;
+    text-decoration:none;
+    padding: 1em 2em;
+    border-radius: 2em;
+}
+
